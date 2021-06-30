@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+
 import Vue, { VNode } from 'vue'
 
 declare global {
