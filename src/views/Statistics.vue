@@ -86,7 +86,7 @@ export default class Statistics extends Vue {
   }
 
   created() {
-   return  this.$store.commit('fetchRecords');
+   this.$store.commit('fetchRecords');
   }
 
 }
